@@ -367,13 +367,52 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="bmr-Th-14l">
+                                <rect key="frame" x="35" y="627" width="305" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUg-bE-wdF">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="0.77338248239999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Map">
+                                            <color key="titleColor" red="0.028986071629999999" green="0.3601469994" blue="0.33311466140000001" alpha="0.83984375" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="M3q-N7-7Sx" kind="show" id="3Sc-w3-3Hv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkj-Ja-4Tf">
+                                        <rect key="frame" x="110" y="0.0" width="74" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="0.77338248239999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Directions ">
+                                            <color key="titleColor" red="0.028986071629999999" green="0.3601469994" blue="0.33311466140000001" alpha="0.83984375" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="cFM-Eh-Y99" kind="show" id="IdK-3I-oIC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZg-nT-4mE">
+                                        <rect key="frame" x="264" y="0.0" width="41" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="0.77338248239999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Notes">
+                                            <color key="titleColor" red="0.028986071629999999" green="0.3601469994" blue="0.33311466140000001" alpha="0.83984375" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="notesButton:" destination="fr3-LT-AZG" eventType="touchUpInside" id="Jcx-MO-Vtf"/>
+                                            <action selector="notesButton:" destination="lnF-7x-OUS" eventType="touchUpInside" id="rrW-Uz-kgS"/>
+                                            <segue destination="4iI-Qu-lks" kind="show" id="cDe-WC-d3G"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="3YY-ql-Nu9" firstAttribute="top" secondItem="i2T-a7-R1J" secondAttribute="top" constant="68" id="3wc-Jx-OVt"/>
                             <constraint firstAttribute="trailing" secondItem="TSz-PN-ZOy" secondAttribute="trailing" id="5iJ-Wd-rky"/>
                             <constraint firstItem="i2T-a7-R1J" firstAttribute="trailing" secondItem="3YY-ql-Nu9" secondAttribute="trailing" constant="39" id="8MF-Wr-fWD"/>
+                            <constraint firstItem="bmr-Th-14l" firstAttribute="centerX" secondItem="Epi-ar-5G3" secondAttribute="centerX" id="9oR-82-OdV"/>
                             <constraint firstItem="TSz-PN-ZOy" firstAttribute="leading" secondItem="Epi-ar-5G3" secondAttribute="leading" id="BXR-Fq-UCx"/>
+                            <constraint firstItem="i2T-a7-R1J" firstAttribute="bottom" secondItem="bmr-Th-14l" secondAttribute="bottom" constant="10" id="I9j-1A-VBd"/>
                             <constraint firstItem="3YY-ql-Nu9" firstAttribute="leading" secondItem="i2T-a7-R1J" secondAttribute="leading" constant="31" id="QoG-0T-VN4"/>
                             <constraint firstItem="i2T-a7-R1J" firstAttribute="bottom" secondItem="3YY-ql-Nu9" secondAttribute="bottom" constant="48" id="ZWe-g4-BEu"/>
                             <constraint firstAttribute="bottom" secondItem="TSz-PN-ZOy" secondAttribute="bottom" id="eol-hE-qRG"/>
@@ -400,6 +439,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COMING SOON..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djZ-4J-7jc">
                                 <rect key="frame" x="120" y="323" width="134.5" height="20.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -493,6 +533,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shop" translatesAutoresizingMaskIntoConstraints="NO" id="JjE-Se-s9S">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COMING SOON..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AuV-qY-W2X">
+                                <rect key="frame" x="120" y="323" width="134.5" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.058809104694366905" green="0.26747684783225145" blue="0.56475907564163208" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -519,6 +567,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="groceries" translatesAutoresizingMaskIntoConstraints="NO" id="Rde-uz-vAI">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COMING SOON..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVp-Tf-TMA">
+                                <rect key="frame" x="120" y="323" width="134.5" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.28554898463733475" green="0.56475907564163208" blue="0.23267121021438966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -917,6 +973,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8Pg-jk-ZIL"/>
+        <segue reference="IdK-3I-oIC"/>
+        <segue reference="3Sc-w3-3Hv"/>
+        <segue reference="cDe-WC-d3G"/>
         <segue reference="OAO-jQ-3ab"/>
     </inferredMetricsTieBreakers>
 </document>
