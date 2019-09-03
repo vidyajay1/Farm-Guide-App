@@ -37,7 +37,7 @@ class Directions: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate
         guard let sourceCoordinates = locationManager.location?.coordinate else {
             return
         }
-        let destCoordinates = CLLocationCoordinate2DMake(37.790630, -122.419671)
+        let destCoordinates = CLLocationCoordinate2DMake(-42.507351, 146.925861)
         
         let sourcePlacemark = MKPlacemark(coordinate: sourceCoordinates)
         let destPlacemark = MKPlacemark(coordinate: destCoordinates)

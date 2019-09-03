@@ -52,7 +52,20 @@ class LogInPage: UIViewController {
     }
     */
     
-    
+    func validateFields() -> String? {
+        //check that all fields are filled in
+        if
+            EmailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
+            ||
+            PasswordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == ""
+        {
+            return "Please fill in all fields."
+            
+        }
+        
+        //Check if password is secure
+        return nil
+    }
     @IBAction func logInButton(_ sender: Any) {
         //Check if the fields are filled in
         

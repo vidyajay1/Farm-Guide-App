@@ -12,16 +12,23 @@ class Notes: UIViewController {
 
     @IBOutlet weak var Notes: UILabel!
     
+    
+ 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    
+    }
 
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var noteText: UITextView!
+ 
     
 
-}
+
     
     /*
     // MARK: - Navigation
