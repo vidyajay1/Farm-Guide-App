@@ -1,6 +1,6 @@
 //
 //  Utilities.swift
-//  customauth
+//  skeleton for the user interface design
 
 //
 import Foundation
