@@ -18,7 +18,7 @@ Farm_Tour_App_Demo.mov: Demo of the app on an iPhone XR through the XCode simula
 
 **Code Files:**
 
-Farm-Guide-App/Farm-Guide-App-master/TourAppPush/TourApp.xcworkspace/: launch this to start the XCode project 
+Farm-Guide-App/Farm-Guide-App-master/TourAppPush/TourApp.xcworkspace/: launch this to start the XCode app project
 
 Farm-Guide-App/Farm-Guide-App-master/TourAppPush/Pods/: folder that contains Firebase and Google Maps plug-ins 
 
