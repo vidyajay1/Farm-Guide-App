@@ -9,6 +9,8 @@ This idea was created when I visited Tasmania over winter break in 2018 with my 
 Demo Files:
 storyboard-screenshots: folder for XCode app storyboard screenshots
 
+Farm_Tour_App_Demo.mov: Demo of the app on an iPhone XR through the XCode simulator on the computer
+
 
 
 
