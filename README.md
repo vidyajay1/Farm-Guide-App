@@ -1,6 +1,6 @@
 # Farm Guide App
 
-This is an app, which uses Xcode and Swift. So far, this app has only been tested and compiled on XCode 10.1. Other versions of XCode have not been tested out yet and newer versions of XCode will most likely be incompatible .
+This is an app, which uses Xcode and Swift. So far, this app has only been tested and compiled on XCode 10.1. Other versions of XCode have not been tested out yet and newer versions of XCode will most likely be incompatible.
 
 This app allows guests to learn more about the farm at the Rathmore Cottage in Tasmania. I have implemented log in and sign up capabilities using Firebase. I wanted to implement maps in the app. I first started with Google Maps SDK, which shows the location of the Rathmore Cottage. I also wanted to implement directions to a specific spot in the app, so I used MapKit, so users can get directions. I am currently implementing the UITableViewController in XCode, where I will save the user's inputs into the Firebase Database. This UITableViewController will allow users to input notes about what they want to do at the Rathmore Cottage. Currently, the app has a Scroll Text View for the notes, which will be replaced by the UITableViewController.
 
