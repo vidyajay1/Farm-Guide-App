@@ -6,7 +6,8 @@ This app allows guests to learn more about the farm at the Rathmore Cottage in T
 
 This idea was created when I visited Tasmania over winter break in 2018 with my family and we stayed at Rathmore Cottage. The host told my family that she wanted to have an app that allowed guests to experience a tour of different parts of the farm. I started working on this app when I attended the CruzHacks 2019 Hackathon.
 
-Demo Files:
+# Demo Files:
+
 storyboard-screenshots: folder for XCode app storyboard screenshots
 
 Farm_Tour_App_Demo.mov: Demo of the app on an iPhone XR through the XCode simulator on the computer
@@ -15,7 +16,7 @@ Farm_Tour_App_Demo.mov: Demo of the app on an iPhone XR through the XCode simula
 
 
 
-Code Files:
+# Code Files:
 
 Farm-Guide-App/Farm-Guide-App-master/TourAppPush/TourApp.xcworkspace/: launch this to start the XCode project 
 
